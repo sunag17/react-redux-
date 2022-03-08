@@ -3,14 +3,14 @@ let initialState = {count: 0}
 
 
 function reducer(state = initialState, action) {
-  if(action.type === 'INCREMENT') {
+  if(action.type === 'INCREMENTs') {
     return {
-      count: state.count + 1
+      count: state.count + 2
     };
   }
-  if(action.type === 'DECREMENT') {
+  if(action.type === 'DECREMENTs') {
     return {
-      count: state.count - 1
+      count: state.count - 2
     }
   }
 
